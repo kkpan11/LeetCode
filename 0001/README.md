@@ -15,3 +15,4 @@ return [<b>0, 1</b>].
 
 ## Languages
 - C: [TwoSum.c](TwoSum.c)
+- Swift: [TwoSum.swift](TwoSum.swift)
