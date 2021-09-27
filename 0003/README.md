@@ -24,3 +24,4 @@ Given `"pwwkew"`, the answer is `"wke"`, with the length of 3. Node that the ans
 
 ## Languages
 - C: [LongestSubstringWithoutRepeatingCharacters.c](LongestSubstringWithoutRepeatingCharacters.c)
+- Swift: [LongestSubstringWithoutRepeatingCharacters.swift](LongestSubstringWithoutRepeatingCharacters.swift)
