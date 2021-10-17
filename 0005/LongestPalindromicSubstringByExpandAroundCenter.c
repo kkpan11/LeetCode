@@ -1,5 +1,11 @@
 #define MAX(a,b) (((a)>(b))?(a):(b))
 
+/**
+ * @brief Expand Around Center
+ * 
+ * @param s Input string
+ * @return char* Longest palindromic substring result
+ */
 char* longestPalindrome(char* s) {
   int start = 0, end = 0;
   for (int i = 0; i < strlen(s); i++) {
@@ -12,8 +18,8 @@ char* longestPalindrome(char* s) {
     }
   }
 
-  char *result = (char *) malloc(sizeof(char) * (end - start + 1));
-  memcpy(result, s+start, end - start + 1);
+  char *result = (char *) malloc(sizeof(char) * (end - start + 2));
+  memcpy(result, s + start, end - start + 1);
   result[end - start + 1] = '\0';
   return result;
 }

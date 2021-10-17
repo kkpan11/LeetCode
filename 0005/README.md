@@ -7,7 +7,7 @@ Given a string **s**, find the longest palindromic substring in **s**. You may a
 <pre>
 <b>Input</b>: "babad"
 <b>Output</b>: "bab"
-<b>Note</b>: "aba" is alse a valid answer.
+<b>Note</b>: "aba" is also a valid answer.
 
 </pre>
 
@@ -24,7 +24,21 @@ Given a string **s**, find the longest palindromic substring in **s**. You may a
 [https://articles.leetcode.com/longest-palindromic-substring-part-ii/](https://articles.leetcode.com/longest-palindromic-substring-part-ii/)
 
 ## Languages
-- C: [LongestPalindromicSubstring.c](LongestPalindromicSubstring.c)
+- C
+  - Manacher's Algorithm:
+  [LongestPalindromicSubstring.c](LongestPalindromicSubstring.c)
+  - Expand Around Center:
+  [LongestPalindromicSubstringByExpandAroundCenter.c](LongestPalindromicSubstringByExpandAroundCenter.c)
+- Swift
+  - Expand Around Center:
+  [LongestPalindromicSubstring.swift](LongestPalindromicSubstring.swift)
+  - Dynamic Programming (2-Dimentional Table):
+  [LongestPalindromicSubstringByDynamicProgrammingTwoDimensionalArray.swift](LongestPalindromicSubstringByDynamicProgrammingTwoDimensionalArray.swift)
+  - Dynamic Programming (1-Dimentional Table):
+  [LongestPalindromicSubstringByDynamicProgrammingOneDimensionalArray.swift](LongestPalindromicSubstringByDynamicProgrammingOneDimensionalArray.swift)
+  
 
 ## Failed Submissions
-- C: [LongestPalindromicSubstringFailedDueToTimeLimitExceeded.c](LongestPalindromicSubstringFailedDueToTimeLimitExceeded.c)
+- Swift
+  - Brute Force:
+  [LongestPalindromicSubstringFailedDueToTimeLimitExceeded.swift](LongestPalindromicSubstringFailedDueToTimeLimitExceeded.swift)

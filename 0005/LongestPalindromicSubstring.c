@@ -2,9 +2,13 @@
 
 #define MIN(a,b) (((a)<(b))?(a):(b))
 
-// Transform S into T.
-// For example, S = "abba", T  = "^#a#b#b#a#$".
-// ^ and $ signs are sentinels appended to each end to avoid bounds checking
+/**
+ * @brief Manacher's Algorithm
+ * 
+ * Transform S into T.
+ * For example, S = "abba", T  = "^#a#b#b#a#$".
+ * ^ and $ signs are sentinels appended to each end to avoid bounds checking.
+ */
 char* preProcessString(char* s) {
   char *result;
 
