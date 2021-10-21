@@ -38,4 +38,9 @@ The median is (2 + 3)/2 = 2.5
 5. Great explained article you can reference: [https://leetcode.com/articles/median-of-two-sorted-arrays/](https://leetcode.com/articles/median-of-two-sorted-arrays/)
 
 ## Languages
-- C: [MedianOfTwoSortedArrays.c](MedianOfTwoSortedArrays.c)
+- C
+  - [MedianOfTwoSortedArrays.c](MedianOfTwoSortedArrays.c)
+- Swift
+  - [MedianOfTwoSortedArrays.swift](MedianOfTwoSortedArrays.swift)
+  - [MedianOfTwoSortedArraysWithAdditionalMergedArraySpace.swift](MedianOfTwoSortedArraysWithAdditionalMergedArraySpace.swift)
+  - [MedianOfTwoSortedArraysWithBuiltInSortedFunction.swift](MedianOfTwoSortedArraysWithBuiltInSortedFunction.swift)

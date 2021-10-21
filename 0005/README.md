@@ -8,14 +8,12 @@ Given a string **s**, find the longest palindromic substring in **s**. You may a
 <b>Input</b>: "babad"
 <b>Output</b>: "bab"
 <b>Note</b>: "aba" is also a valid answer.
-
 </pre>
 
 ## Example 2:
 <pre>
 <b>Input</b>: "cbbd"
 <b>Output</b>: "bb"
-
 </pre>
 
 ## First Thoughts
@@ -36,6 +34,9 @@ Given a string **s**, find the longest palindromic substring in **s**. You may a
   [LongestPalindromicSubstringByDynamicProgrammingTwoDimensionalArray.swift](LongestPalindromicSubstringByDynamicProgrammingTwoDimensionalArray.swift)
   - Dynamic Programming (1-Dimentional Table):
   [LongestPalindromicSubstringByDynamicProgrammingOneDimensionalArray.swift](LongestPalindromicSubstringByDynamicProgrammingOneDimensionalArray.swift)
+- Python
+  - Expand Around Center: [LongestPalindromicSubstring.py](LongestPalindromicSubstring.py)
+  - Expand Around Center by Individual Function: [LongestPalindromicSubstringByExpandAroundCenterFunction.py](LongestPalindromicSubstringByExpandAroundCenterFunction.py)
   
 
 ## Failed Submissions

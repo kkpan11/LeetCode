@@ -1,6 +1,6 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
-        """Dynamic Programming"""
+        """Expand Around Center"""
         maxLength = 1
 
         start = 0
