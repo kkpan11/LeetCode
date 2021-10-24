@@ -48,7 +48,7 @@ class Solution {
     }
 
     func checkCarrying(_ node: ListNode) -> ListNode? {
-        var carryNode: ListNode? = nil
+        var carryNode: ListNode?
 
         if node.val / 10 > 0 {
             carryNode = ListNode(node.val / 10)
