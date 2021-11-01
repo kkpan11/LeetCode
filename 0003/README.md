@@ -10,6 +10,8 @@ Given `"bbbbb"`, the answer is `"b"`, with the length of 1.
 
 Given `"pwwkew"`, the answer is `"wke"`, with the length of 3. Node that the answer must be a **substring**, `"pwke"` is a subsequence and not a substring.
 
+---
+
 ## First Thoughts
 1. Keep an array reference for the temp char array.
 2. Check the new char appearance in the temp char array.

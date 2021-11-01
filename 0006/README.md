@@ -45,11 +45,6 @@ P     I
 
 ---
 
-## First Thoughts
-1. Convert digit from ones to the highest digit.
-2. Check the overflow with reversing the operation, we should get the previous number.
-3. Otherwise, there is an overflow.
-
 ## Languages
 - C: [ZigZagConversion.c](ZigZagConversion.c)
 - Swift: [ZigZagConversion.swift](ZigZagConversion.swift)

@@ -13,6 +13,8 @@ Because nums[<b>0</b>] + nums[<b>1</b>] = 2 + 7 = 9,
 return [<b>0, 1</b>].
 </pre>
 
+---
+
 ## Languages
 - C: [TwoSum.c](TwoSum.c)
 - Swift: [TwoSum.swift](TwoSum.swift)

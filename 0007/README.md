@@ -32,6 +32,8 @@ Given a signed 32-bit integer `x`, return `x` *with its digits reversed.* If rev
 ## Constraints
 - <code>-2<sup>31</sup> <= x <= 2<sup>31</sup> - 1</code>
 
+---
+
 ## First Thoughts
 1. Convert digit from ones to the highest digit.
 2. Check the overflow with reversing the operation, we should get the previous number.

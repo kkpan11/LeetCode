@@ -16,6 +16,8 @@ Given a string **s**, find the longest palindromic substring in **s**. You may a
 <b>Output</b>: "bb"
 </pre>
 
+---
+
 ## First Thoughts
 1. Great explained article you can reference: [https://leetcode.com/problems/longest-palindromic-substring/solution/](https://leetcode.com/problems/longest-palindromic-substring/solution/)
 2. Manacher's Algorithm is a non-trivial algorithm which reduces the run time to O(N) and the space to O(N) as well:
@@ -38,7 +40,6 @@ Given a string **s**, find the longest palindromic substring in **s**. You may a
   - Expand Around Center: [LongestPalindromicSubstring.py](LongestPalindromicSubstring.py)
   - Expand Around Center by Individual Function: [LongestPalindromicSubstringByExpandAroundCenterFunction.py](LongestPalindromicSubstringByExpandAroundCenterFunction.py)
   
-
 ## Failed Submissions
 - Swift
   - Brute Force:

@@ -20,6 +20,7 @@ nums2 = [3, 4]
 
 The median is (2 + 3)/2 = 2.5
 ```
+---
 
 ## First Thoughts
 1. Dividing a set into two equal length subsets, that one subset is always greater than the other.
