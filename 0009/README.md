@@ -61,3 +61,9 @@ Now let's think about how to revert the last half of the number. For number `122
 Now the question is, how do we know that we've reached the half of the number?
 
 Since we divided the number by 10, and multiplied the reversed number by 10, when the original number is less than the reversed number, it means we've processed half of the number digits.
+
+---
+
+## Languages
+- C: [PalindromeNumber.c](PalindromeNumber.c)
+- Swift: [PalindromeNumber.swift](PalindromeNumber.swift)
