@@ -3,12 +3,6 @@
 ## Description
 Roman numbers are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
 
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-
 | Symbol | Value |
 | ------ | ----- |
 | I | 1 |
