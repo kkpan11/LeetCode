@@ -153,8 +153,8 @@ There is a memory overhead since we store recursive calls in the execution stack
 ## Approach 4: Binary search
 
 The idea is to apply binary search method to find the string with maximum value $L$, which is common prefix of all of the strings. The algorithm searches space is the interval $(0...minLen)$, where $minLen$ is minimum string length and the maximum possible common prefix. Each time search space is divided in two equal parts, one of them is discarded, because it is sure that it doesn't contain the solution. There are two possible cases:
-- $S[1...mid]$ is not a common string. This means that for each $j > i S[1..j]$ is not common string and we discard the second half of the search space.
-- $S[1...mid]$ is common string. This means that for each $i < j S[1..i]$ is common string and we discard the first half of the search space, because we try to find longer common prefix.
+- $S[1...mid]$ is not a common string. This means that for each $j > i,\ S[1..j]$ is not common string and we discard the second half of the search space.
+- $S[1...mid]$ is common string. This means that for each $i < j,\ S[1..i]$ is common string and we discard the first half of the search space, because we try to find longer common prefix.
 
 <div style="text-align: center;">
 
