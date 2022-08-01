@@ -42,6 +42,12 @@ You must write an algorithm with $O(\log n)$ runtime complexity.
 
 3. Similarly, if the **pivot** lies to the left, again we check if the target lies in the non-rotated subarray, we update the low, else we update the high. And in the end, if we come out of the loop, we are sure that the target is not present in the given array.
 
+## Further Thoughts
+For those who have difficulties understanding one-pass binary search solution, I tried to divide the problem into two stages:
+
+1. Find the lowest value in array.
+2. Find the target in left or right group.
+
 ## Languages
 - C: [SearchInRotatedSortedArray.c](SearchInRotatedSortedArray.c)
 - Swift: [SearchInRotatedSortedArray.swift](SearchInRotatedSortedArray.swift)
